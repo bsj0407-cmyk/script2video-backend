@@ -110,3 +110,7 @@ app.listen(PORT, () => {
   console.log("Server running on", PORT);
 });
 
+
+console.log("API KEY 존재 여부:", !!process.env.OPENAI_API_KEY);
+
+
